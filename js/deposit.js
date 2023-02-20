@@ -8,6 +8,6 @@ document.getElementById('deposit-btn').addEventListener('click', () => {
     setElementValue('deposit', totalDeposit);
 
     const previousBalance = getElementValue('balance')
-    const totalBalance = previousBalance + totalDeposit;
+    const totalBalance = previousBalance + newDeposit;
     setElementValue('balance', totalBalance)
 })
